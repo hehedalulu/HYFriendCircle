@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E8D0CD9E35EC959CE01684F /* libPods-HYFriendCircle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD49FAA13DB5008A3E68E35D /* libPods-HYFriendCircle.a */; };
 		EFFDD3CD1F342EB0009D7D1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDD3CC1F342EB0009D7D1D /* main.m */; };
 		EFFDD3D01F342EB0009D7D1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDD3CF1F342EB0009D7D1D /* AppDelegate.m */; };
 		EFFDD3D31F342EB0009D7D1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDD3D21F342EB0009D7D1D /* ViewController.m */; };
@@ -18,6 +19,7 @@
 		EFFDD3F41F342EB0009D7D1D /* HYFriendCircleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDD3F31F342EB0009D7D1D /* HYFriendCircleUITests.m */; };
 		EFFDD4031F34306D009D7D1D /* HYSingCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDD4021F34306D009D7D1D /* HYSingCellView.m */; };
 		EFFDD4061F34308F009D7D1D /* HYTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDD4051F34308F009D7D1D /* HYTopView.m */; };
+		EFFDD4091F344D86009D7D1D /* HYCommentContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDD4081F344D86009D7D1D /* HYCommentContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		157244EE85BD90872506EDDC /* Pods-HYFriendCircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYFriendCircle.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYFriendCircle/Pods-HYFriendCircle.release.xcconfig"; sourceTree = "<group>"; };
+		BC375E3F311834519F6A8776 /* Pods-HYFriendCircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYFriendCircle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYFriendCircle/Pods-HYFriendCircle.debug.xcconfig"; sourceTree = "<group>"; };
+		BD49FAA13DB5008A3E68E35D /* libPods-HYFriendCircle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYFriendCircle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFDD3C81F342EB0009D7D1D /* HYFriendCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYFriendCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFDD3CC1F342EB0009D7D1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFFDD3CE1F342EB0009D7D1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,6 +64,8 @@
 		EFFDD4021F34306D009D7D1D /* HYSingCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSingCellView.m; sourceTree = "<group>"; };
 		EFFDD4041F34308F009D7D1D /* HYTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTopView.h; sourceTree = "<group>"; };
 		EFFDD4051F34308F009D7D1D /* HYTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTopView.m; sourceTree = "<group>"; };
+		EFFDD4071F344D86009D7D1D /* HYCommentContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCommentContentView.h; sourceTree = "<group>"; };
+		EFFDD4081F344D86009D7D1D /* HYCommentContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCommentContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8D0CD9E35EC959CE01684F /* libPods-HYFriendCircle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		290ACEFB93DB29FB667C9641 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD49FAA13DB5008A3E68E35D /* libPods-HYFriendCircle.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF1F2B115F9B75125AEF265A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC375E3F311834519F6A8776 /* Pods-HYFriendCircle.debug.xcconfig */,
+				157244EE85BD90872506EDDC /* Pods-HYFriendCircle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EFFDD3BF1F342EB0009D7D1D = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +118,8 @@
 				EFFDD3E71F342EB0009D7D1D /* HYFriendCircleTests */,
 				EFFDD3F21F342EB0009D7D1D /* HYFriendCircleUITests */,
 				EFFDD3C91F342EB0009D7D1D /* Products */,
+				BF1F2B115F9B75125AEF265A /* Pods */,
+				290ACEFB93DB29FB667C9641 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +144,8 @@
 				EFFDD4051F34308F009D7D1D /* HYTopView.m */,
 				EFFDD4011F34306D009D7D1D /* HYSingCellView.h */,
 				EFFDD4021F34306D009D7D1D /* HYSingCellView.m */,
+				EFFDD4071F344D86009D7D1D /* HYCommentContentView.h */,
+				EFFDD4081F344D86009D7D1D /* HYCommentContentView.m */,
 				EFFDD3D41F342EB0009D7D1D /* Main.storyboard */,
 				EFFDD3DA1F342EB0009D7D1D /* Assets.xcassets */,
 				EFFDD3DC1F342EB0009D7D1D /* LaunchScreen.storyboard */,
@@ -160,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFFDD3F81F342EB0009D7D1D /* Build configuration list for PBXNativeTarget "HYFriendCircle" */;
 			buildPhases = (
+				ADE3EDC08711A5EE4FEB2E9E /* [CP] Check Pods Manifest.lock */,
 				EFFDD3C41F342EB0009D7D1D /* Sources */,
 				EFFDD3C51F342EB0009D7D1D /* Frameworks */,
 				EFFDD3C61F342EB0009D7D1D /* Resources */,
+				E5C2FB50CE9F5A5D2C6D39DE /* [CP] Embed Pods Frameworks */,
+				778D8FD0254CEE8D7AEECA7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,6 +316,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		778D8FD0254CEE8D7AEECA7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYFriendCircle/Pods-HYFriendCircle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADE3EDC08711A5EE4FEB2E9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C2FB50CE9F5A5D2C6D39DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYFriendCircle/Pods-HYFriendCircle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EFFDD3C41F342EB0009D7D1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -291,6 +371,7 @@
 			files = (
 				EFFDD3D31F342EB0009D7D1D /* ViewController.m in Sources */,
 				EFFDD4061F34308F009D7D1D /* HYTopView.m in Sources */,
+				EFFDD4091F344D86009D7D1D /* HYCommentContentView.m in Sources */,
 				EFFDD3D01F342EB0009D7D1D /* AppDelegate.m in Sources */,
 				EFFDD3D91F342EB0009D7D1D /* HYFriendCircle.xcdatamodeld in Sources */,
 				EFFDD4031F34306D009D7D1D /* HYSingCellView.m in Sources */,
@@ -441,6 +522,7 @@
 		};
 		EFFDD3F91F342EB0009D7D1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC375E3F311834519F6A8776 /* Pods-HYFriendCircle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6FLC9M7L6R;
@@ -453,6 +535,7 @@
 		};
 		EFFDD3FA1F342EB0009D7D1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157244EE85BD90872506EDDC /* Pods-HYFriendCircle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6FLC9M7L6R;
