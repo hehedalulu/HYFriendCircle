@@ -10,4 +10,10 @@
 
 @interface HYCommentContentView : UIView
 
+@property (strong ,nonatomic) UILabel * CommentPeople;
+
+@property (strong, nonatomic) UILabel * CommentList;
+
+- (void)initCommentContentViewWithList: (NSDictionary *)CommentList;
+
 @end
