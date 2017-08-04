@@ -17,7 +17,7 @@
 		EFFDD3DE1F342EB0009D7D1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFFDD3DC1F342EB0009D7D1D /* LaunchScreen.storyboard */; };
 		EFFDD3E91F342EB0009D7D1D /* HYFriendCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDD3E81F342EB0009D7D1D /* HYFriendCircleTests.m */; };
 		EFFDD3F41F342EB0009D7D1D /* HYFriendCircleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDD3F31F342EB0009D7D1D /* HYFriendCircleUITests.m */; };
-		EFFDD4031F34306D009D7D1D /* HYSingCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDD4021F34306D009D7D1D /* HYSingCellView.m */; };
+		EFFDD4031F34306D009D7D1D /* HYSingleCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDD4021F34306D009D7D1D /* HYSingleCellView.m */; };
 		EFFDD4061F34308F009D7D1D /* HYTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDD4051F34308F009D7D1D /* HYTopView.m */; };
 		EFFDD4091F344D86009D7D1D /* HYCommentContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFDD4081F344D86009D7D1D /* HYCommentContentView.m */; };
 /* End PBXBuildFile section */
@@ -60,8 +60,8 @@
 		EFFDD3EF1F342EB0009D7D1D /* HYFriendCircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYFriendCircleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFDD3F31F342EB0009D7D1D /* HYFriendCircleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYFriendCircleUITests.m; sourceTree = "<group>"; };
 		EFFDD3F51F342EB0009D7D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFFDD4011F34306D009D7D1D /* HYSingCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSingCellView.h; sourceTree = "<group>"; };
-		EFFDD4021F34306D009D7D1D /* HYSingCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSingCellView.m; sourceTree = "<group>"; };
+		EFFDD4011F34306D009D7D1D /* HYSingleCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSingleCellView.h; sourceTree = "<group>"; };
+		EFFDD4021F34306D009D7D1D /* HYSingleCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSingleCellView.m; sourceTree = "<group>"; };
 		EFFDD4041F34308F009D7D1D /* HYTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTopView.h; sourceTree = "<group>"; };
 		EFFDD4051F34308F009D7D1D /* HYTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTopView.m; sourceTree = "<group>"; };
 		EFFDD4071F344D86009D7D1D /* HYCommentContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCommentContentView.h; sourceTree = "<group>"; };
@@ -142,8 +142,8 @@
 				EFFDD3D21F342EB0009D7D1D /* ViewController.m */,
 				EFFDD4041F34308F009D7D1D /* HYTopView.h */,
 				EFFDD4051F34308F009D7D1D /* HYTopView.m */,
-				EFFDD4011F34306D009D7D1D /* HYSingCellView.h */,
-				EFFDD4021F34306D009D7D1D /* HYSingCellView.m */,
+				EFFDD4011F34306D009D7D1D /* HYSingleCellView.h */,
+				EFFDD4021F34306D009D7D1D /* HYSingleCellView.m */,
 				EFFDD4071F344D86009D7D1D /* HYCommentContentView.h */,
 				EFFDD4081F344D86009D7D1D /* HYCommentContentView.m */,
 				EFFDD3D41F342EB0009D7D1D /* Main.storyboard */,
@@ -374,7 +374,7 @@
 				EFFDD4091F344D86009D7D1D /* HYCommentContentView.m in Sources */,
 				EFFDD3D01F342EB0009D7D1D /* AppDelegate.m in Sources */,
 				EFFDD3D91F342EB0009D7D1D /* HYFriendCircle.xcdatamodeld in Sources */,
-				EFFDD4031F34306D009D7D1D /* HYSingCellView.m in Sources */,
+				EFFDD4031F34306D009D7D1D /* HYSingleCellView.m in Sources */,
 				EFFDD3CD1F342EB0009D7D1D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -615,6 +615,7 @@
 				EFFDD3FA1F342EB0009D7D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFFDD3FB1F342EB0009D7D1D /* Build configuration list for PBXNativeTarget "HYFriendCircleTests" */ = {
 			isa = XCConfigurationList;
@@ -623,6 +624,7 @@
 				EFFDD3FD1F342EB0009D7D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFFDD3FE1F342EB0009D7D1D /* Build configuration list for PBXNativeTarget "HYFriendCircleUITests" */ = {
 			isa = XCConfigurationList;
@@ -631,6 +633,7 @@
 				EFFDD4001F342EB0009D7D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+//朋友圈顶部深蓝色的控制bar
+@property (strong, nonatomic) UIView * TopBar;
 
 @end
 
@@ -16,8 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
+
 }
 
 

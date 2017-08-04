@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HYTopView.h"
+#import "HYSingleCellView.h"
+#import "Masonry.h"
 
 @interface ViewController : UIViewController
 

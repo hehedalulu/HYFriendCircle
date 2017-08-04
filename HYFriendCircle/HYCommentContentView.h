@@ -7,13 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Masonry.h"
 
 @interface HYCommentContentView : UIView
-
-@property (strong ,nonatomic) UILabel * CommentPeople;
-
+//点赞者清单
+@property (strong ,nonatomic) UILabel * LikePeople;
+//评论列表
 @property (strong, nonatomic) UILabel * CommentList;
-
+//接口函数
 - (void)initCommentContentViewWithList: (NSDictionary *)CommentList;
 
 @end
